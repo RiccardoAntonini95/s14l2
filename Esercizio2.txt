@@ -1,0 +1,24 @@
+QUERY 
+
+1) SELECT * from [northwind].[dbo].[Products]
+
+2)SELECT * from [northwind].[dbo].[Products]
+where UnitsInStock >= 40
+
+3)SELECT * from [northwind].[dbo].[Employees]
+ where City = 'London'
+
+4)SELECT * from [northwind].[dbo].[Orders]
+ order by Freight desc
+
+5)SELECT * from [northwind].[dbo].[Orders]
+ where Freight between 90 and 200
+
+6)SELECT * from [northwind].[dbo].[Products]
+ where CategoryID = 1
+
+7)SELECT * from [northwind].[dbo].[Order Details]
+ where Discount > 0
+
+8)SELECT * from [northwind].[dbo].[Orders]
+ where CustomerID = 'BOTTM' and Freight > 50
